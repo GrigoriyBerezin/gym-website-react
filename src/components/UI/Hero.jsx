@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero__wrapper">
         <div className="hero__content">
           <h2>Exercise is the key to a
-            <span className="higlights">Healthy</span>Lifestyle
+            <span className="higlights"> Healthy </span>Lifestyle
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/> Facilis, neque?
