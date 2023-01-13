@@ -18,7 +18,7 @@
 }
 
 .logo__img {
-  background-color: var(--bg-gradient);
+  background-color: var(--primary-color);
   width: 35px;
   height: 35px;
   line-height: 35px;

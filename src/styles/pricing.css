@@ -10,7 +10,7 @@
 .pricing__top p {
   font-size: 1.1rem;
   color: var(--heading-color);
-  line-height: 28;
+  line-height: 28px;
   margin-bottom: 50px;
 }
 

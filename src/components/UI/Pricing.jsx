@@ -3,7 +3,7 @@ import '../../styles/pricing.css'
 
 const Pricing = () => {
   return (
-    <section>
+    <section id="pricing-plan">
       <div className="container">
         <div className="pricing__top">
           <h2 className="section__title">
@@ -14,7 +14,8 @@ const Pricing = () => {
         </div>
 
         <div className="pricing__wrapper">
-          <div className="pricing__item">
+          <div className="pricing__item" data-aos="fade-up"
+               data-aos-duration='1500'>
             <div className="pricing__card-top">
               <h2 className="section__title">Regular Member</h2>
               <h2 className="pricing section__title">$50 <span>/month</span>
@@ -44,7 +45,8 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="pricing__item ">
+          <div className="pricing__item " data-aos="fade-up"
+               data-aos-duration='1750'>
             <div className="pricing__card-top pricing__item-02">
               <h2 className="section__title">Premium Member</h2>
               <h2 className="pricing section__title">$70 <span>/month</span>
@@ -74,7 +76,8 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div className="pricing__item">
+          <div className="pricing__item" data-aos="fade-up"
+               data-aos-duration='2000'>
             <div className="pricing__card-top">
               <h2 className="section__title">Standard Member</h2>
               <h2 className="pricing section__title">$100 <span>/month</span>

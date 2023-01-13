@@ -31,6 +31,10 @@ body {
   font-family: var(--font-name);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   padding: 50px 0px;
 }
@@ -55,7 +59,7 @@ ul {
   margin: auto;
 }
 
-.section__title{
+.section__title {
   color: var(--heading-color);
   font-weight: 700;
 }
