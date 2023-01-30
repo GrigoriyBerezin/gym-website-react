@@ -53,6 +53,12 @@
   font-size: 1.1rem;
 }
 
+@media (max-width: 779px) {
+  .navigation {
+    display: none;
+  }
+}
+
 .nav__item a:hover {
   color: var(--primary-color);
 }

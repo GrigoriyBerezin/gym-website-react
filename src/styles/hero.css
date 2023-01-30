@@ -4,6 +4,13 @@
   padding-top: 50px;
 }
 
+@media (max-width: 779px) {
+  .hero__wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 .hero__content .section__title {
   font-size: 3rem;
   padding-right: 50px;
