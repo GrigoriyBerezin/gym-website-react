@@ -21,6 +21,14 @@
   column-gap: 2rem;
 }
 
+@media (max-width: 779px) {
+  .pricing__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+  }
+}
+
 .pricing__item {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
   border-radius: 5px;

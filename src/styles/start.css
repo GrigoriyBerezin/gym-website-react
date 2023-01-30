@@ -6,6 +6,13 @@
   align-items: center;
 }
 
+@media (max-width: 779px) {
+  .start__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .start__img,
 .start__content {
   width: 50%;
