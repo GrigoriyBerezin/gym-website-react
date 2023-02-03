@@ -1,4 +1,3 @@
-/* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 :root {
@@ -11,15 +10,7 @@
   );
   --font-name: "Questrial", sans-serif;
 
-  /* 
-        #9785f2
-        #b5a9f3
-        #d3cef2
-        #d7337a
-    */
 }
-
-/*===== reset default browser styles =====*/
 
 * {
   margin: 0;
@@ -53,7 +44,6 @@ ul {
   list-style: none;
 }
 
-/*===== reusable class ===== */
 .container {
   width: 1140px;
   padding: 0px 15px;
